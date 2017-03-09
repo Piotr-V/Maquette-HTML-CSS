@@ -1,0 +1,195 @@
+body {
+    background: -webkit-linear-gradient(left, rgba(0,0,0,1),rgba(0,0,0,1),rgba(0,0,0,0.7),rgba(0,0,0,0.7),rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(47,47,47,1),rgba(47,47,47,1));
+    background: -moz-linear-gradient(left, rgba(0,0,0,1),rgba(0,0,0,1),rgba(0,0,0,0.7),rgba(0,0,0,0.7),rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(47,47,47,1),rgba(47,47,47,1));
+    background: -o-linear-gradient(left, rgba(0,0,0,1),rgba(0,0,0,1),rgba(0,0,0,0.7),rgba(0,0,0,0.7),rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(47,47,47,1),rgba(47,47,47,1));
+    background: linear-gradient(to right, rgba(0,0,0,1),rgba(0,0,0,1),rgba(0,0,0,0.7),rgba(0,0,0,0.7),rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(47,47,47,1),rgba(47,47,47,1));
+    }
+
+#container {
+    background-image: url("/Users/Piotr____/Documents/WCS/Quêtes/Maquette-HTML-CSS/img/title.jpg"), url("/Users/Piotr____/Documents/WCS/Quêtes/Maquette-HTML-CSS/img/middle.jpg"), url("/Users/Piotr____/Documents/WCS/Quêtes/Maquette-HTML-CSS/img/footer.gif"), url("/Users/Piotr____/Documents/WCS/Quêtes/Maquette-HTML-CSS/img/full1.png");
+    background-repeat: no-repeat, no-repeat, no-repeat, repeat-y;
+    background-position: top right, 984px 0px, bottom right, right;
+    width: 1300px;
+    height: 100%;
+    margin: -10px;
+    font-family: "arial-black";
+    display: flex;
+    flex-direction: column;
+    color: rgba(243, 243, 232, 1);
+}
+#flexContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+#left {
+    width: 30%;
+}
+
+#middle {
+    width: 40%;
+}
+
+#right {
+    width: 30%;
+}
+
+#footer {
+    display: flex;
+    flex-basis: row;
+    justify-content: center;
+    width: 1300px;
+    height: 100%;
+}
+
+.titre {
+    background-color: rgba(225, 216, 25, 1);
+    text-transform: uppercase;
+    width: 550px;
+}
+
+.titre > h1 {
+    padding-top: 2px;
+    border-style: solid;
+    border-color: black;
+    border-top-color: rgba(225, 216, 25, 1);
+    background-color: black;
+    font-size: 20px;
+    letter-spacing: 2px; 
+}
+
+.titre > h2 {
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+.yellow {
+    color: rgba(225, 216, 25, 1);
+    font-weight: bold;
+}
+
+.p {
+    color:rgba(225, 216, 25, 1);
+}
+
+img {
+    border: 1px;
+    border-style: solid;
+    border-color: rgba(225, 216, 25, 1);
+    padding: 2px;
+    float: left;
+    margin: 5px;
+}
+
+#sk1 {
+    float: left;
+    margin: 3px;
+}
+
+#sk2 {
+    float: right;
+    margin: 3px;
+}
+
+blockquote {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px; 
+    width: 200px;
+    margin: auto;
+    background-color: rgba(47,47,47,1);
+    border-top-color: rgba(225, 216, 25, 1);
+    border-top-style: solid;
+    border-bottom-color: rgba(225, 216, 25, 1);
+    border-bottom-style: solid;
+
+}
+
+p, li {
+    font-size: 13px;
+    font-family: Georgia;
+    letter-spacing: 2px;
+    list-style-image: url(/Users/Piotr____/Documents/WCS/Quêtes/Maquette-HTML-CSS/img/bullet.gif);
+}
+
+.tableflex {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    text-align: left;
+}
+
+.table {
+    margin: 20px;
+    width: 250px;
+}
+
+#middle td {
+    border-top-color: rgba(100,100,100,1);
+    border-top-style: solid;
+    width: 100px;
+    padding: 4px;
+    font-size: 16px;
+    background-color: rgba(47,47,47,1);
+}
+
+#middle th{
+    padding: 10px;
+}
+
+#right {
+    display: flex;
+    flex-direction: column;
+}
+
+#right h1{
+    font-size: 60px;
+    width: 150px;
+    height: auto;
+    margin: 60px 0px 0px 150px;
+letter-spacing: -5px;
+}
+
+#right > div {
+    height: auto;
+    margin: 180px 0px 0px 120px;
+}
+
+#right li {
+    font-size: 20px;
+    font-weight: bold;
+    list-style-image: url(/Users/Piotr____/Documents/WCS/Quêtes/Maquette-HTML-CSS/img/star1.jpg);
+}
+
+#right table {
+   background-color:rgba(225, 216, 25, 1);
+   margin: 50px 0px 50px 0px;
+}
+
+#right caption {
+    border-top-color: rgba(225, 216, 25, 1);
+    border-top-style: solid;
+    font-size: 18px;
+    font-weight: bold;
+}
+#right th{
+    padding: 2px;
+    color: rgba(236,20,91,1);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#right td {
+    width: 200px;
+    padding:4px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color:rgba(236,20,91,1);
+}
+
+#footer {
+    margin: auto;
+    font-size: 12px;
+}
+
