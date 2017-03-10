@@ -6,7 +6,7 @@ body {
     }
 
 #container {
-    background-image: url("/img/title.jpg"), url("/img/middle.jpg"), url("/img/footer.gif"), url("/img/full1.png");
+    background-image: url("./img/title.jpg"), url("./img/middle.jpg"), url("./img/footer.gif"), url("./img/full1.png");
     background-repeat: no-repeat, no-repeat, no-repeat, repeat-y;
     background-position: top right, 984px 0px, bottom right, right;
     width: 1300px;
