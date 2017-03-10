@@ -110,7 +110,7 @@ p, li {
     font-size: 13px;
     font-family: Georgia;
     letter-spacing: 2px;
-    list-style-image: url(/img/bullet.gif);
+    list-style-image: url(./img/bullet.gif);
 }
 
 .tableflex {
@@ -159,7 +159,7 @@ letter-spacing: -5px;
 #right li {
     font-size: 20px;
     font-weight: bold;
-    list-style-image: url(/img/star1.jpg);
+    list-style-image: url(./img/star1.jpg);
 }
 
 #right table {
